@@ -8,7 +8,6 @@ Achieving great accuracy in object recognition task on CIFAR-10 dataset with hel
 here's the model summary:
 
 Layer (type)                 Output Shape              Param #  
-
 =================================================================
 conv2d_7 (Conv2D)            (None, 32, 32, 32)        896       
 _________________________________________________________________
@@ -61,7 +60,6 @@ _________________________________________________________________
 flatten_2 (Flatten)          (None, 2048)              0         
 _________________________________________________________________
 dense_2 (Dense)              (None, 10)                20490     
-
 =================================================================
 Total params: 309,290
 Trainable params: 308,394
